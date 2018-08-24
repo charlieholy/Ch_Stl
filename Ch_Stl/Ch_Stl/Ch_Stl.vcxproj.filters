@@ -15,5 +15,8 @@
     <ClInclude Include="..\ch\utility.h">
       <Filter>ch</Filter>
     </ClInclude>
+    <ClInclude Include="..\ch\_iterbase.h">
+      <Filter>ch</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
