@@ -110,10 +110,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\ch\_random.cc" />
     <ClCompile Include="..\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\ch\utility.h" />
     <ClInclude Include="..\ch\_random.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

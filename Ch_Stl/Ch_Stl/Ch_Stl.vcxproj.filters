@@ -6,13 +6,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ch\_random.cc">
-      <Filter>ch</Filter>
-    </ClCompile>
     <ClCompile Include="..\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ch\_random.h">
+      <Filter>ch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch\utility.h">
       <Filter>ch</Filter>
     </ClInclude>
   </ItemGroup>
