@@ -66,3 +66,17 @@ int main()
 }
  典型的RTTI是通过在VTABLE中放一个额外的指针来实现的。 
 L:3Son
+
+将Fa类改为
+
+class Fa{
+public :
+int a ;
+Fa(){}
+//    virtual int get(){
+//      return a;
+//   } 
+};
+这时没有虚函数了，也就是说哪一个特殊的额外的指针没有地方放了，
+
+此时结果 *fa的类别显示是Fa；
