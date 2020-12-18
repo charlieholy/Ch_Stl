@@ -1,0 +1,3 @@
+::operator
+方法前面加::表示namespace
+直接前面加是为了区分其他namespace重定义的方法 表示全局的方法。
