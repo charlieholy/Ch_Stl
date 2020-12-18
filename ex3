@@ -41,3 +41,28 @@ int main()
 	cout << typeid(b).name()<< endl;
   return 0;
 }
+////////
+class Fa{
+public :
+int a ;
+Fa(){}
+virtual int get(){
+  return a;
+} 
+};
+
+
+class Son : public Fa{
+public :
+Son(){}
+};
+#include <iostream>
+using namespace std;
+int main()
+{
+	Fa* fa =new Son();
+	cout << "L:" << typeid(*fa).name() << endl;
+  return 0;
+}
+ 典型的RTTI是通过在VTABLE中放一个额外的指针来实现的。 
+L:3Son
