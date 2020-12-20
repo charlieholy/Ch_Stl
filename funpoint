@@ -1,0 +1,19 @@
+using namespace std;
+
+int foo(int p)
+{
+  cout << p << endl;
+  return 3;
+}
+
+void foo2(int (*fn)(int p)). //参数是函数指针
+{
+  int res = fn(2);
+  cout << res << endl;
+}
+
+int main()
+{
+  foo2(foo);
+  return 0;
+}
